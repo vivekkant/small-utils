@@ -65,6 +65,7 @@ public class FileNameSorter {
 		String[] ext = new String[1];
 		ext[0] = "mp3";
 		
+		@SuppressWarnings("unchecked")
 		Iterator<File> iterator = FileUtils.iterateFiles(dir, ext, false);
 		
 		while(iterator.hasNext()) {
