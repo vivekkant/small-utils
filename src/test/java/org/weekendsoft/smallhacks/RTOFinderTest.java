@@ -6,8 +6,6 @@ import org.junit.jupiter.api.Test;
 
 class RTOFinderTest {
 	
-	private static RTOFinder rtofinder = new RTOFinder();
-
 	@Test
 	void test() {
 		
@@ -29,6 +27,22 @@ class RTOFinderTest {
 		
 		String rto = RTOFinder.findRTO("DL3SBG7162");
 		assertEquals("DL3", rto);
+		
+	}
+
+	@Test
+	void test4() {
+		
+		String rto = RTOFinder.findRTO("DL3SBG7162");
+		assertEquals("DL3", rto);
+		
+	}
+	
+	@Test
+	void test5() {
+		
+		String rto = RTOFinder.findRTO("MH126758");
+		assertEquals("MH12", rto);
 		
 	}
 

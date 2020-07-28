@@ -25,7 +25,7 @@ public class RTOFinder {
 		StringBuilder rto = new StringBuilder();
 		rto.append(vehicleNo.substring(0, 2));
 		
-		for (int i = 2; i < vehicleNo.length(); i++) {
+		for (int i = 2; i < vehicleNo.length() && i < 4; i++) {
 			char c = vehicleNo.charAt(i);
 			if ("0123456789".indexOf(c) == -1) {
 				break;
