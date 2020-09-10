@@ -1,4 +1,4 @@
-package org.weekendsoft.smallhacks;
+package org.weekendsoft.smallutils;
 
 public class RTOFinder {
 

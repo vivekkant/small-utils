@@ -1,4 +1,4 @@
-package org.weekendsoft.smallhacks;
+package org.weekendsoft.smallutils;
 
 import java.io.File;
 import java.util.Iterator;
