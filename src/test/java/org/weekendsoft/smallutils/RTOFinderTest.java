@@ -1,8 +1,9 @@
-package org.weekendsoft.smallhacks;
+package org.weekendsoft.smallutils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+import org.weekendsoft.smallhacks.RTOFinder;
 
 class RTOFinderTest {
 	
