@@ -10,7 +10,7 @@ public class RTOFinder {
 			System.out.println("Please pass the correct vehicle registration number");
 			System.exit(-1);
 		}
-		
+
 		vehicleNo = args[0].toUpperCase();
 		
 		String rto = findRTO(vehicleNo);
